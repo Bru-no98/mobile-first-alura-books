@@ -16,8 +16,68 @@
     position: initial;
 }
 
-.content{
-    height: 10px;
-    margin: 20px;
+.card{
+    
+    margin: 5%;
     background-color: white;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgb(0, 0, 0, 0.5);    
+}
+
+.card__lado__direito{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__itens{
+    padding-bottom: 10px;
+}
+
+h2.card__itens{
+    color: var(--laranja);
+    font-size: 16px;
+    font-weight: 700;    
+}
+
+h1.card__itens{
+    color: var(--azul);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p.card__itens{
+    color: #000000;
+    font-size: 14px;
+}
+
+.card__botoes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.card__botoes-icones{
+    padding: 0 7%;
+}
+
+.card__imagem{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.card__botao{
+    padding: 1em 2.2em ;
+    background-color: var(--laranja);
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.card__imagem-botao{
+    
 }
