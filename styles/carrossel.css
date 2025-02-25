@@ -22,7 +22,7 @@
     background-color: white;
     display: flex;
     border-radius: 10px;
-    box-shadow: 0 0 15px 0 rgb(0, 0, 0, 0.5);    
+    box-shadow: 5px 5px 5px 0 rgb(0, 0, 0, .2);    
 }
 
 .card__lado__direito{
@@ -78,6 +78,37 @@ p.card__itens{
     color: var(--branco);
 }
 
-.card__imagem-botao{
+.topicos{
+    background: var(--azul-degrade);
+}
+
+.topicos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
+}
+
+.topicos__titulo{
+    padding: 32px 0;
+    color: var(--branco);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.topicos__item{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 1em ;
+    background-color: var(--laranja);
+    color: var(--branco);
+    margin: 0.8em 0.6em;
+}
+
+.topicos__link{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 14px;
+    font-weight: 700;
 }
