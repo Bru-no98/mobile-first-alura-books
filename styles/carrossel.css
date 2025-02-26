@@ -86,6 +86,7 @@ p.card__itens{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 21.2px;
     
 }
 
