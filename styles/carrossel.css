@@ -69,6 +69,11 @@ p.card__itens{
     flex-direction: column;
     justify-content: space-between;
     gap: 7px;
+    
+}
+
+.card__imagem-imagem{
+    border-radius: 10px;
 }
 
 .card__botao{
@@ -76,6 +81,7 @@ p.card__itens{
     background-color: var(--laranja);
     text-decoration: none;
     color: var(--branco);
+    border-radius: 10px;
 }
 
 .topicos{
@@ -105,6 +111,7 @@ p.card__itens{
     background-color: var(--laranja);
     color: var(--branco);
     margin: 0.8em 0.6em;
+    border-radius: 10px;
 }
 
 .topicos__link{
