@@ -26,6 +26,10 @@
     padding: 1em;
 }
 
+.nome__da__plataforma{
+    display: none;
+}
+
 .lista-menu{
     display: none;
     position: absolute;
@@ -66,8 +70,8 @@
 @media screen and (min-width: 1024px){
 
     .cabecalho{
-        justify-content: center;
-        gap:70px;
+        display: grid;
+        grid-template-columns: 25vw 50vw 25vw;
     }
 
     .cabecalho__menu-hamburguer{
@@ -75,6 +79,7 @@
     }
 
     .nome__da__plataforma{
+        display: block;
         font-family: var(--fonte-secundaria);
         font-size: 30px;
         font-weight: 400;
@@ -84,19 +89,27 @@
         font-weight: 700;
     }
 
-
-    /* .container__imagem{
-        padding: 1em 0;
-    }
-     */
     .lista-menu__transparente{
         display: flex;
-        gap: 20px
+        justify-content:center;
+        gap: 50px
     }
-/* 
-    .container{
-        gap:2em
+
+    /* .container__imagem{
+        padding: 1em 1em 1em 0
     } */
+
+    .container__responsivo-direito{
+        display: flex;
+        justify-content: right;
+        padding-right: 80px; 
+    }
+
+    .container__responsivo-esquerdo{
+        display: flex;
+        justify-content: left;
+        padding-left: 80px; 
+    }
 
     .container__imagem-transparente{
         display: none;
