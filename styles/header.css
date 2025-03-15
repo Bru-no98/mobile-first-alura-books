@@ -52,9 +52,55 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-transform: uppercase;
+}
 
+.lista-menu__transparente{
+    display: none;
 }
 
 .container__botao{
     display: none;
+}
+
+@media screen and (min-width: 1024px){
+
+    .cabecalho{
+        justify-content: center;
+        gap:70px;
+    }
+
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+    .nome__da__plataforma{
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .nome__negrito{
+        font-weight: 700;
+    }
+
+
+    /* .container__imagem{
+        padding: 1em 0;
+    }
+     */
+    .lista-menu__transparente{
+        display: flex;
+        gap: 20px
+    }
+/* 
+    .container{
+        gap:2em
+    } */
+
+    .container__imagem-transparente{
+        display: none;
+    }
+
+  
 }
