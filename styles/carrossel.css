@@ -16,7 +16,7 @@
     position: initial;
 }
 
-.card{
+.container__card{
     
     margin: 5%;
     background-color: white;
@@ -119,4 +119,44 @@ p.card__itens{
     color: var(--branco);
     font-size: 14px;
     font-weight: 700;
+}
+
+@media screen and (min-width: 1024px){
+    
+    .card{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container__card{
+        width: 588px;
+        display: flex;
+    }
+
+    .card__itens{
+        padding-bottom: 25px;
+    }
+
+    h2.card__itens{
+        font-size: 18px;    
+    }
+    
+    h1.card__itens{
+        font-size: 22px;
+    }
+    
+    p.card__itens{
+        font-size: 16px;
+    }
+
+    .card__botoes{
+        padding: 0.5em;
+        display: flex;
+        justify-content: left;
+        gap: 2em;
+    }
+
+    .card__botoes-icones{
+        padding:0;
+    }
 }
