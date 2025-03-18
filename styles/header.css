@@ -67,6 +67,11 @@
     display: none;
 }
 
+.container__botão{
+   display: none; 
+}
+
+
 @media screen and (min-width: 1024px){
 
     .cabecalho{
@@ -95,10 +100,6 @@
         gap: 50px
     }
 
-    /* .container__imagem{
-        padding: 1em 1em 1em 0
-    } */
-
     .container__responsivo-direito{
         display: flex;
         justify-content: right;
@@ -115,5 +116,9 @@
         display: none;
     }
 
-  
+    .container__botão:checked~.lista-menu{
+        display: block;
+        width: auto;
+    }
+
 }
