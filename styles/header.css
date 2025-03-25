@@ -71,6 +71,9 @@
    display: none; 
 }
 
+.container__imagem-texto{
+    display: none;
+}
 
 @media screen and (min-width: 1024px){
 
@@ -121,4 +124,34 @@
         width: auto;
     }
 
+}
+
+@media screen and (min-width: 1728px){
+    
+    .cabecalho{
+        display: flex;
+    }
+
+    .nome__da__plataforma{
+        padding-right: 2em;
+    }
+
+    .container__responsivo-direito{
+        gap: 2em;
+    }
+
+    .container__icone-texto{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem-texto{
+        display: block;
+    }
+
+    .lista-menu__transparente{
+        margin-right: auto;
+    }
 }
