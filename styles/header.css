@@ -9,13 +9,14 @@
 
 .cabecalho__menu-hamburguer{
     width: 24px;
-    height: 24px;
+    height: 32px;
     background-image: url("../img/Menu.svg");
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
     
 }
+
 
 .container{
     display: flex;
@@ -39,6 +40,17 @@
 
 .container__botao:checked~.lista-menu{
     display: block;
+}
+
+.container__botao:checked~.menu__rotulo>.cabecalho__menu-hamburguer{
+    
+    background-image: url("../img/MenuAberto.svg");
+    height: 40px;
+    
+}
+
+.container__botao:checked~.menu__rotulo{
+    background: var(--azul-degrade);
 }
 
 .lista-menu__titulo, .lista-menu__item{
