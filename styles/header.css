@@ -44,9 +44,7 @@
 
 .container__botao:checked~.menu__rotulo>.cabecalho__menu-hamburguer{
     
-    background-image: url("../img/MenuAberto.svg");
-    height: 40px;
-    
+    background-image: url("../img/MenuAberto.svg");  
 }
 
 .container__botao:checked~.menu__rotulo{
@@ -118,13 +116,13 @@
     .container__responsivo-direito{
         display: flex;
         justify-content: right;
-        padding-right: 80px; 
+        padding-right: 50px; 
     }
 
     .container__responsivo-esquerdo{
         display: flex;
         justify-content: left;
-        padding-left: 80px; 
+        padding-left: 50px; 
     }
 
     .container__imagem-transparente{
